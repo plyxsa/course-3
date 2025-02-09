@@ -1,0 +1,30 @@
+﻿@model Lab7.Data.WSREFCOMMENT
+
+<form asp-action="EditComment" method="post">
+    <input type="hidden" name="Id" value="@Model.Id" />
+    <input type="hidden" name="Wsref_id" value="@Model.Wsref_id" />
+    <input type="hidden" name="Session_id" value="@Model.Session_id" />
+    <div class="form-group">
+        <label for="Comtext">Комментарий</label>
+        <textarea id="Comtext" name="Comtext" class="form-control" required>@Model.Comtext</textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Обновить комментарий</button>
+    <button id="CancelEditCommentButton" class="btn">Cancel</button>
+
+</form>
+
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#CancelEditCommentButton').click(function () {
+                var container = $('#editCommentsContainer');
+
+                if (container.children().length > 0) {
+                    container.empty();
+                }
+            });
+        });
+    </script>
+}

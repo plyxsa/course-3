@@ -1,0 +1,200 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UWSR</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Lab7.styles.css" asp-append-version="true" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f2edf7;
+            color: #3b245f;
+            line-height: 1.6;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #5e348c;
+            font-size: 2.5rem;
+            cursor: pointer;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #4a3b5f;
+            font-weight: 500;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #a87ac0;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+            input[type="text"]:focus,
+            input[type="password"]:focus {
+                outline: none;
+                border-color: #7b53a9;
+                box-shadow: 0 0 0 0.2rem rgba(123,83,169,.25);
+            }
+
+        button {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+            margin-right: 5px;
+        }
+
+        .btn-primary {
+            background-color: #7b53a9;
+            color: white;
+        }
+
+            .btn-primary:hover {
+                background-color: #5e348c;
+            }
+
+        .btn-secondary {
+            background-color: #9b7bb8;
+            color: white;
+        }
+
+            .btn-secondary:hover {
+                background-color: #7b53a9;
+            }
+
+        .filter-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .filter-input-group {
+            flex: 1;
+            margin-right: 10px;
+        }
+
+        .table-container {
+            margin-top: 20px;
+            border: 1px solid #d0b8e4;
+        }
+
+        .link-container {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border-bottom: 1px solid #d0b8e4;
+        }
+
+            .link-container:last-child {
+                border-bottom: none;
+            }
+
+        .vote-buttons {
+            display: flex;
+            margin-right: 15px;
+            align-items: center;
+        }
+
+            .vote-buttons button {
+                padding: 5px 10px;
+                border-radius: 3px;
+                margin: 0 5px;
+            }
+
+            .vote-buttons .plusButton {
+                background-color: #82c386;
+                color: white;
+            }
+
+                .vote-buttons .plusButton:hover {
+                    background-color: #5e8f62;
+                }
+
+            .vote-buttons .minusButton {
+                background-color: #d68686;
+                color: white;
+            }
+
+                .vote-buttons .minusButton:hover {
+                    background-color: #b05c5c;
+                }
+
+        .comment-button, .link-text {
+            margin-right: 15px;
+        }
+
+            .comment-button a {
+                color: #7b53a9;
+            }
+
+                .comment-button a:hover {
+                    color: #5e348c;
+                }
+
+        .comment-count {
+            margin-right: 15px;
+        }
+
+        a.link-text {
+            text-decoration: none;
+            color: #7b53a9;
+            font-weight: 500;
+        }
+
+            a.link-text:hover {
+                text-decoration: underline;
+                color: #5e348c;
+            }
+
+        #loading-indicator {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border: 1px solid #ccc;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="mainh1">--UWSR--</h1>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

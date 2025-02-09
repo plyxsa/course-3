@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSocket</title>
+    <style>
+         body {
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            justify-content: center;
+            height: 100vh; 
+            margin: 0;
+            font-family: Arial, sans-serif; 
+            background-color: #f0f0f0;
+        }
+        textarea {
+            width: 100%; 
+            height: 300px; 
+            margin-top: 10px; 
+            text-align: center; 
+        }
+        button {
+            margin: 5px;
+            padding: 10px 20px; 
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>WebSocket</h1>
+    <div>
+        <button id="bstart" onclick="startWebSocket()" disabled>Старт</button>
+        <button id="bstop" onclick="stopWebSocket()" disabled>Стоп</button>
+    </div>
+    <textarea id="ta" readonly></textarea>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+    <script>
+        var ws = null;
+        var ta;
+        var bstart;
+        var bstop;
+
+        window.onload = function() {
+            if (Modernizr.websockets) {
+                console.log('Поддерживается');
+                ta = document.getElementById('ta');
+                bstart = document.getElementById('bstart');
+                bstop = document.getElementById('bstop');
+                bstart.disabled = false;
+                bstop.disabled = true;
+            } else {
+                console.log('Не поддерживается');
+            }
+        }
+
+        function startWebSocket() {
+            if (!ws) {
+                ws = new WebSocket('wss://localhost:44391/lab2');  
+
+                ws.onopen = function() {
+                    ta.value += "Соединение установлено\n"; 
+                    bstart.disabled = true;
+                    bstop.disabled = false;
+                };
+
+                ws.onmessage = function(event) {
+                    ta.value += event.data + "\n";
+                };
+
+                ws.onclose = function(event) {
+                    ta.value += "Соединение закрыто\n";
+                    
+                    if (ws.readyState === WebSocket.CLOSED) {
+                        ws = null;
+                        bstart.disabled = false;
+                        bstop.disabled = true;
+                    }
+                };
+
+                ws.onerror = function(error) {
+                    ta.value += "Ошибка: " + error.message + "\n";
+                };
+            }
+        }
+
+        function stopWebSocket() {
+            if (ws && ws.readyState === WebSocket.OPEN) {
+                ws.close();
+            }
+        }
+
+        function sendWebSocket() {
+            if (ws && ws.readyState === WebSocket.OPEN) {
+                ws.send("привет");
+            }
+        }
+    </script>
+</body>
+</html>

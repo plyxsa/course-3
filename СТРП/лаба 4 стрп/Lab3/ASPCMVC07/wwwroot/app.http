@@ -1,0 +1,15 @@
+@hostname=localhost
+@port=7058
+GET https://{{hostname}}:{{port}}/it/343/hello545435
+###
+GET https://{{hostname}}:{{port}}/it/true/hello
+###
+POST https://{{hostname}}:{{port}}/it/true/hello
+###
+GET https://{{hostname}}:{{port}}/it/124/hell5
+###
+DELETE https://{{hostname}}:{{port}}/it/12/hello
+###
+PUT https://{{hostname}}:{{port}}/it/hllo/12355
+###
+POST https://{{hostname}}:{{port}}/it/example@mail.ru

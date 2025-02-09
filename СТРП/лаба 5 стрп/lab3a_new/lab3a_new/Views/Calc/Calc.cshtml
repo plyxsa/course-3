@@ -1,0 +1,47 @@
+﻿@{
+    //Это представление, которое отображает веб-калькулятор и 
+    // обрабатывает введенные пользователем данные
+    Layout = null;
+    float? x = ViewBag.x, y = ViewBag.y, z = ViewBag.z;
+    // это локальные переменные, которые получают значения из ViewBag
+    string action = "Sum";
+    string press = (string)ViewBag.press;//переменная press получает значение из ViewBag.press
+    action = press switch //используется оператор switch для определения значения action в зависимости от значения press
+    {
+        "+"=>"Sum",
+        "-"=>"Sub",
+        "*"=>"Sum",
+        "/"=>"Sub",
+        _=>"Index"
+    };//используется для определения значения result,//null, то используется строка "err".
+    string result= Convert.ToString(ViewBag.result??"err");
+}   
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <title>Calc</title>
+</head>
+<body>
+@{ await Html.RenderPartialAsync("_CalcLink");}
+
+@if (!String.IsNullOrWhiteSpace(press)) //не пустое ли знач press
+{
+    @using (Html.BeginRouteForm((action,"Calc",FormMethod.Post)))//создание формы html- для отправки данных на сервер./определ маршрут для отправки данных
+    {
+        <p>
+            @{ await Html.RenderPartialAsync("_Calc");}
+            <input type="text" disabled value="@result"/>
+            <input type="submit" name="press" value="@press"/>
+        </p>
+        <p>
+            @(ViewBag.Error as string)
+        </p>
+    }//рендерин частичного представления
+    //отображение результата операции
+    //кнопка для отправки данных на сервер 
+}
+</body>
+</html>

@@ -1,0 +1,113 @@
+C:\Users\stass\Desktop\СТРВП\MWADT\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stass\Desktop\СТРВП\MWADT\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.AssemblyInfoInputs.cache
+C:\Users\stass\Desktop\СТРВП\MWADT\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.AssemblyInfo.cs
+C:\Users\stass\Desktop\СТРВП\MWADT\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.csproj.CoreCompileInputs.cache
+C:\Users\stass\Desktop\СТРВП\MWADT\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\stass\Desktop\СТРВП\MWADT\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.RazorAssemblyInfo.cache
+C:\Users\stass\Desktop\СТРВП\MWADT\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.RazorAssemblyInfo.cs
+C:\Users\stass\Desktop\СТРВП\MWADT\lab3\lab3a_new\lab3a_new\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\stass\Desktop\СТРВП\MWADT\lab3\lab3a_new\lab3a_new\bin\Debug\net7.0\appsettings.json
+C:\Users\stass\Desktop\СТРВП\MWADT\lab3\lab3a_new\lab3a_new\bin\Debug\net7.0\lab3a_new.staticwebassets.runtime.json
+C:\Users\stass\Desktop\СТРВП\MWADT\lab3\lab3a_new\lab3a_new\bin\Debug\net7.0\lab3a_new.exe
+C:\Users\stass\Desktop\СТРВП\MWADT\lab3\lab3a_new\lab3a_new\bin\Debug\net7.0\lab3a_new.deps.json
+C:\Users\stass\Desktop\СТРВП\MWADT\lab3\lab3a_new\lab3a_new\bin\Debug\net7.0\lab3a_new.runtimeconfig.json
+C:\Users\stass\Desktop\СТРВП\MWADT\lab3\lab3a_new\lab3a_new\bin\Debug\net7.0\lab3a_new.dll
+C:\Users\stass\Desktop\СТРВП\MWADT\lab3\lab3a_new\lab3a_new\bin\Debug\net7.0\lab3a_new.pdb
+C:\Users\stass\Desktop\СТРВП\MWADT\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\staticwebassets\msbuild.lab3a_new.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\stass\Desktop\СТРВП\MWADT\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\staticwebassets\msbuild.build.lab3a_new.props
+C:\Users\stass\Desktop\СТРВП\MWADT\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.lab3a_new.props
+C:\Users\stass\Desktop\СТРВП\MWADT\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.lab3a_new.props
+C:\Users\stass\Desktop\СТРВП\MWADT\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\stass\Desktop\СТРВП\MWADT\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\stass\Desktop\СТРВП\MWADT\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\stass\Desktop\СТРВП\MWADT\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\scopedcss\bundle\lab3a_new.styles.css
+C:\Users\stass\Desktop\СТРВП\MWADT\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.dll
+C:\Users\stass\Desktop\СТРВП\MWADT\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\refint\lab3a_new.dll
+C:\Users\stass\Desktop\СТРВП\MWADT\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.pdb
+C:\Users\stass\Desktop\СТРВП\MWADT\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.genruntimeconfig.cache
+C:\Users\stass\Desktop\СТРВП\MWADT\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\ref\lab3a_new.dll
+C:\Users\ilooo\Downloads\MWADT-main\MWADT-main\lab3\lab3a_new\lab3a_new\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\ilooo\Downloads\MWADT-main\MWADT-main\lab3\lab3a_new\lab3a_new\bin\Debug\net7.0\appsettings.json
+C:\Users\ilooo\Downloads\MWADT-main\MWADT-main\lab3\lab3a_new\lab3a_new\bin\Debug\net7.0\lab3a_new.staticwebassets.runtime.json
+C:\Users\ilooo\Downloads\MWADT-main\MWADT-main\lab3\lab3a_new\lab3a_new\bin\Debug\net7.0\lab3a_new.exe
+C:\Users\ilooo\Downloads\MWADT-main\MWADT-main\lab3\lab3a_new\lab3a_new\bin\Debug\net7.0\lab3a_new.deps.json
+C:\Users\ilooo\Downloads\MWADT-main\MWADT-main\lab3\lab3a_new\lab3a_new\bin\Debug\net7.0\lab3a_new.runtimeconfig.json
+C:\Users\ilooo\Downloads\MWADT-main\MWADT-main\lab3\lab3a_new\lab3a_new\bin\Debug\net7.0\lab3a_new.dll
+C:\Users\ilooo\Downloads\MWADT-main\MWADT-main\lab3\lab3a_new\lab3a_new\bin\Debug\net7.0\lab3a_new.pdb
+C:\Users\ilooo\Downloads\MWADT-main\MWADT-main\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.csproj.AssemblyReference.cache
+C:\Users\ilooo\Downloads\MWADT-main\MWADT-main\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ilooo\Downloads\MWADT-main\MWADT-main\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.AssemblyInfoInputs.cache
+C:\Users\ilooo\Downloads\MWADT-main\MWADT-main\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.AssemblyInfo.cs
+C:\Users\ilooo\Downloads\MWADT-main\MWADT-main\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.csproj.CoreCompileInputs.cache
+C:\Users\ilooo\Downloads\MWADT-main\MWADT-main\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ilooo\Downloads\MWADT-main\MWADT-main\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.RazorAssemblyInfo.cache
+C:\Users\ilooo\Downloads\MWADT-main\MWADT-main\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.RazorAssemblyInfo.cs
+C:\Users\ilooo\Downloads\MWADT-main\MWADT-main\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\staticwebassets\msbuild.lab3a_new.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ilooo\Downloads\MWADT-main\MWADT-main\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\staticwebassets\msbuild.build.lab3a_new.props
+C:\Users\ilooo\Downloads\MWADT-main\MWADT-main\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.lab3a_new.props
+C:\Users\ilooo\Downloads\MWADT-main\MWADT-main\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.lab3a_new.props
+C:\Users\ilooo\Downloads\MWADT-main\MWADT-main\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\ilooo\Downloads\MWADT-main\MWADT-main\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\ilooo\Downloads\MWADT-main\MWADT-main\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\ilooo\Downloads\MWADT-main\MWADT-main\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\scopedcss\bundle\lab3a_new.styles.css
+C:\Users\ilooo\Downloads\MWADT-main\MWADT-main\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.dll
+C:\Users\ilooo\Downloads\MWADT-main\MWADT-main\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\refint\lab3a_new.dll
+C:\Users\ilooo\Downloads\MWADT-main\MWADT-main\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.pdb
+C:\Users\ilooo\Downloads\MWADT-main\MWADT-main\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.genruntimeconfig.cache
+C:\Users\ilooo\Downloads\MWADT-main\MWADT-main\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\ref\lab3a_new.dll
+D:\5 sem\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\bin\Debug\net7.0\appsettings.Development.json
+D:\5 sem\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\bin\Debug\net7.0\appsettings.json
+D:\5 sem\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\bin\Debug\net7.0\lab3a_new.staticwebassets.runtime.json
+D:\5 sem\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\bin\Debug\net7.0\lab3a_new.exe
+D:\5 sem\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\bin\Debug\net7.0\lab3a_new.deps.json
+D:\5 sem\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\bin\Debug\net7.0\lab3a_new.runtimeconfig.json
+D:\5 sem\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\bin\Debug\net7.0\lab3a_new.dll
+D:\5 sem\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\bin\Debug\net7.0\lab3a_new.pdb
+D:\5 sem\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.GeneratedMSBuildEditorConfig.editorconfig
+D:\5 sem\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.AssemblyInfoInputs.cache
+D:\5 sem\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.AssemblyInfo.cs
+D:\5 sem\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.csproj.CoreCompileInputs.cache
+D:\5 sem\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.MvcApplicationPartsAssemblyInfo.cache
+D:\5 sem\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.RazorAssemblyInfo.cache
+D:\5 sem\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.RazorAssemblyInfo.cs
+D:\5 sem\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\staticwebassets\msbuild.lab3a_new.Microsoft.AspNetCore.StaticWebAssets.props
+D:\5 sem\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\staticwebassets\msbuild.build.lab3a_new.props
+D:\5 sem\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.lab3a_new.props
+D:\5 sem\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.lab3a_new.props
+D:\5 sem\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\staticwebassets.pack.json
+D:\5 sem\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\staticwebassets.build.json
+D:\5 sem\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\staticwebassets.development.json
+D:\5 sem\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\scopedcss\bundle\lab3a_new.styles.css
+D:\5 sem\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.dll
+D:\5 sem\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\refint\lab3a_new.dll
+D:\5 sem\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.pdb
+D:\5 sem\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.genruntimeconfig.cache
+D:\5 sem\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\ref\lab3a_new.dll
+E:\5сем\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\bin\Debug\net7.0\appsettings.Development.json
+E:\5сем\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\bin\Debug\net7.0\appsettings.json
+E:\5сем\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\bin\Debug\net7.0\lab3a_new.staticwebassets.runtime.json
+E:\5сем\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\bin\Debug\net7.0\lab3a_new.exe
+E:\5сем\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\bin\Debug\net7.0\lab3a_new.deps.json
+E:\5сем\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\bin\Debug\net7.0\lab3a_new.runtimeconfig.json
+E:\5сем\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\bin\Debug\net7.0\lab3a_new.dll
+E:\5сем\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\bin\Debug\net7.0\lab3a_new.pdb
+E:\5сем\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.GeneratedMSBuildEditorConfig.editorconfig
+E:\5сем\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.AssemblyInfoInputs.cache
+E:\5сем\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.AssemblyInfo.cs
+E:\5сем\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.csproj.CoreCompileInputs.cache
+E:\5сем\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.MvcApplicationPartsAssemblyInfo.cache
+E:\5сем\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.RazorAssemblyInfo.cache
+E:\5сем\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.RazorAssemblyInfo.cs
+E:\5сем\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\staticwebassets.build.json
+E:\5сем\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\staticwebassets.development.json
+E:\5сем\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\staticwebassets\msbuild.lab3a_new.Microsoft.AspNetCore.StaticWebAssets.props
+E:\5сем\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\staticwebassets\msbuild.build.lab3a_new.props
+E:\5сем\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.lab3a_new.props
+E:\5сем\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.lab3a_new.props
+E:\5сем\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\staticwebassets.pack.json
+E:\5сем\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\scopedcss\bundle\lab3a_new.styles.css
+E:\5сем\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.dll
+E:\5сем\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\refint\lab3a_new.dll
+E:\5сем\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.pdb
+E:\5сем\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\lab3a_new.genruntimeconfig.cache
+E:\5сем\СТР web-приложений\3\lab3\lab3\lab3a_new\lab3a_new\obj\Debug\net7.0\ref\lab3a_new.dll

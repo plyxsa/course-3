@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Lab7.Data.WSREFCOMMENT>
+
+<h3>Комментарии для записи с ID: @ViewData["WsrefId"]</h3>
+
+<button type="button" id="insertCommentButton" class="btn btn-success" data-id="@ViewData["WsrefId"]">Добавить комментарий</button>
+
+<div id="editCommentsContainer"></div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Дата</th>
+            <th>Комментарий</th>
+            <th>Действия</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var comment in Model)
+        {
+            <tr>
+                <td>@comment.Stamp</td>
+                <td>@comment.Comtext</td>
+                <td>
+                    @if (comment.Session_id == ViewData["SessionId"].ToString() || User.IsInRole("Owner"))
+                    {
+                        <button class="btn btn-warning" data-id="@comment.Id" id="editCommentButton">Редактировать</button>
+                        <button class="btn btn-danger" data-id="@comment.Id" id="deleteCommentButton">Удалить</button>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

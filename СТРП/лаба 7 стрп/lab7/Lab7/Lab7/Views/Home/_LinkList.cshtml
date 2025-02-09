@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Lab7.Data.WSREF>
+
+@foreach (var link in Model)
+{
+    <tr>
+        @if (User.IsInRole("Owner"))
+        {
+
+        <td>
+            <button type="button" class="btn btn-outline-primary" id="deleteButton" data-id="@link.Id">Удалить</button>
+        </td>
+        <td>
+            <button type="button" class="btn btn-outline-primary" id="updateButton" data-id="@link.Id">Обновить</button>
+        </td>
+        }
+        <td>
+            <button type="button" class="btn btn-outline-primary" id="plusButton" data-id="@link.Id">+@link.Plus</button>
+        </td>
+        <td>
+            <button type="button" class="btn btn-outline-primary" id="minusButton" data-id="@link.Id">-@link.Minus</button>
+        </td>
+        <td>
+            <button type="button" class="btn btn-outline-primary" id="commentButton" data-id="@link.Id">Комментарии</button>
+        </td>
+        <td>[@link.Id]</td>
+        <td><a href="@link.Url">@link.Description</a></td>
+    </tr>
+}
+

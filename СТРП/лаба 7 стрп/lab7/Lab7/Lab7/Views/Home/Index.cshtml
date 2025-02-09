@@ -1,0 +1,272 @@
+﻿@model SignInViewModel
+
+<form>
+    <div class="form-group mt-3">
+        @if (User.IsInRole("Owner"))
+        {
+            <button id="insert" class="btn btn-primary" type="button">Вставить</button>
+        }
+        <button id="filter" class="btn btn-primary" type="button">Фильтр</button>
+        <div id="filter-form-group" style="display: none;">
+            <label for="filterInput">Фильтр:</label>
+            <input type="text" id="filterInput" class="form-control" placeholder="Введите слова через запятую">
+            <button id="filterButton" class="btn btn-primary" type="button">Фильтровать</button>
+        </div>
+    </div>
+</form>
+<div id="LogInContainer"></div>
+<div id="UpdateContainer"></div>
+<div id="InsertNewUrl"></div>
+<div id="CommentsContainer"></div>
+
+
+<table id="table" class="table table-bordered"></table>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var container = $('#table');
+
+            if (container.children().length == 0) {
+
+                $.ajax({
+                    url: '@Url.Action("LoadLinkListPartialView", "Home")',
+                    type: 'GET',
+                    success: function (data) {
+                        $('#table').html(data);
+                    },
+                    error: function () {
+                        alert('Ошибка загрузки частичного представления');
+                    }
+                });
+            }
+            $('#mainh1').click(function () {
+                var container = $('#LogInContainer');
+                if (container.children().length > 0) {
+                    container.empty(); 
+                } else {
+                    $.ajax({
+                        url: '@Url.Action("LoadLogInPartialView", "Home")',
+                        type: 'GET',
+                        success: function (data) {
+                            $('#LogInContainer').html(data);
+                        },
+                        error: function () {
+                            alert('Ошибка загрузки частичного представления');
+                        }
+                    });
+                }
+            });
+            $('#insert').click(function () {
+                var container = $('#InsertNewUrl');
+                if (container.children().length > 0) {
+                    container.empty();
+                } else {
+                    $.ajax({
+                        url: '@Url.Action("LoadInsertPartialView", "Admin")',
+                        type: 'GET',
+                        success: function (data) {
+                            $('#InsertNewUrl').html(data);
+                        },
+                        error: function () {
+                            alert('Ошибка загрузки частичного представления');
+                        }
+                    });
+                }
+            });
+
+            $(document).on('click', '#updateButton', function () {
+                var container = $('#UpdateContainer');
+
+                if (container.children().length > 0) {
+                    container.empty();
+                } else {
+                    container.empty();
+                    $.ajax({
+                        url: '@Url.Action("LoadUpdatePartialView", "Admin")',
+                        type: 'GET',
+                        data: { id: $(this).data('id') },
+                        success: function (data) {
+                            container.html(data);
+                        },
+                        error: function () {
+                            alert('Ошибка загрузки частичного представления');
+                        }
+                    });
+                }
+            });
+
+            $(document).on('click', '#deleteButton', function () {
+                var recordId = $(this).data('id'); 
+                alert("ID записи для удаления: " + recordId);
+
+                if (confirm('Вы уверены, что хотите удалить эту запись?')) {
+                    $.ajax({
+                        url: '@Url.Action("Delete", "Admin")',
+                        type: 'POST',
+                        data: { id: recordId },
+                        success: function (response) {
+                            if (response.success) {
+                                alert('Запись успешно удалена!');
+                                window.location.href = response.redirectUrl;
+                            } else {
+                                alert('Ошибка при удалении записи');
+                            }
+                        },
+                        error: function () {
+                            alert('Ошибка запроса на удаление');
+                        }
+                    });
+                }
+            });
+
+            $(document).on('click', '#commentButton', function () {
+                var wsrefId = $(this).data('id'); 
+                var container = $('#CommentsContainer');
+
+                if (container.children().length > 0) {
+                    container.empty();
+                } else {
+                    container.empty();
+
+                    $.ajax({
+                        url: '@Url.Action("GetComments", "Comment")',
+                        type: 'GET',
+                        data: { wsrefId: wsrefId },
+                        success: function (data) {
+                            container.html(data);
+                        },
+                        error: function () {
+                            alert('Ошибка загрузки комментариев');
+                        }
+                    });
+                }
+            });
+
+            $(document).on('click', '#insertCommentButton', function () {
+                var wsrefId = $(this).data('id');
+                var container = $('#editCommentsContainer');
+
+                if (container.children().length > 0) {
+                    container.empty();
+                } else {
+                    container.empty();
+
+                    $.ajax({
+                        url: '@Url.Action("AddCommentForm", "Comment")',
+                        type: 'GET',
+                        data: { wsrefId: wsrefId },
+                        success: function (data) {
+                            container.html(data);
+                        },
+                        error: function () {
+                            alert('Ошибка загрузки формы для добавления комментария');
+                        }
+                    });
+                }
+            });
+
+            $(document).on('click', '#editCommentButton', function () {
+                var commentId = $(this).data('id');
+                var container = $('#editCommentsContainer');
+
+                if (container.children().length > 0) {
+                    container.empty();
+                } else {
+                    container.empty();
+
+                    $.ajax({
+                        url: '@Url.Action("EditComment", "Comment")',
+                        type: 'GET',
+                        data: { id: commentId },
+                        success: function (data) {
+                            container.html(data);
+                        },
+                        error: function () {
+                            alert('Ошибка загрузки формы для редактирования комментария');
+                        }
+                    });
+                }
+            });
+
+            $(document).on('click', '#deleteCommentButton', function () {
+                var commentId = $(this).data('id');
+                $.ajax({
+                    url: '@Url.Action("DeleteComment", "Comment")',
+                    type: 'POST',
+                    data: { id: commentId },
+                    success: function () {
+                        alert('Комментарий удален');
+                        location.reload();  
+                    },
+                    error: function () {
+                        alert('Ошибка при удалении комментария');
+                    }
+                });
+            });
+
+            $(document).on('click', '#plusButton', function () {
+                var id = $(this).data('id');
+
+                $.ajax({
+                    url: '@Url.Action("IncrementPlus", "Home")',
+                    type: 'POST',
+                    data: { id: id },
+                    success: function (response) {
+                        location.reload();
+                    },
+                    error: function () {
+                        alert("Произошла ошибка при отправке запроса");
+                    }
+                });
+            });
+
+            $(document).on('click', '#minusButton', function () {
+                var id = $(this).data('id');
+
+                $.ajax({
+                    url: '@Url.Action("DecrementMinus", "Home")',
+                    type: 'POST',
+                    data: { id: id },
+                    success: function (response) {
+                        location.reload();
+                    },
+                    error: function () {
+                        alert("Произошла ошибка при отправке запроса");
+                    }
+                });
+            });
+
+            $("#filter").click(function () {
+                $("#filter-form-group").toggle();
+            });
+
+            $("#filterButton").click(function () {
+                const filterValue = $("#filterInput").val();
+                var container = $('#table');
+                container.empty();
+                $.ajax({
+                    url: '@Url.Action("FilterLinks", "Home")',
+                    type: 'POST',
+                    data: { filter: filterValue },
+                    success: function (data) {
+                        $('#table').html(data);
+                    },
+                    error: function () {
+                        alert('Ошибка загрузки фильтрованных данных');
+                    }
+                });
+                    
+                
+            });
+
+        });
+    </script>
+}
+
+<style>
+    table td {
+        padding: 10px
+    }
+</style>

@@ -1,0 +1,37 @@
+﻿@model InsertViewModel
+
+<form method="post">
+    <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+    <div class="form-group">
+        <label asp-for="Url" class="control-label"></label>
+        <input asp-for="Url" class="form-control" />
+        <span asp-validation-for="Url" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Description" class="control-label"></label>
+        <input asp-for="Description" class="form-control" />
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mt-3">
+        <button asp-controller="Admin" asp-action="Insert" type="submit" class="btn btn-primary">Ok</button>
+        <button id="CancelInsertButton" class="btn">Отмена</button>
+    </div>
+</form>
+
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#CancelInsertButton').click(function () {
+                var container = $('#InsertNewUrl');
+
+                if (container.children().length > 0) {
+                    container.empty();
+                }
+            });
+        });
+    </script>
+}
