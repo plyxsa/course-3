@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\plyushka\\source\\repos\\OS07_04_X\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D258D259-9E1F-44B5-AB99-C6D384963410}|OS07_04_X\\OS07_04_X.vcxproj|C:\\Users\\plyushka\\source\\repos\\OS07_04_X\\OS07_04_X\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D258D259-9E1F-44B5-AB99-C6D384963410}|OS07_04_X\\OS07_04_X.vcxproj|solutionrelative:OS07_04_X\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cpp",
+              "DocumentMoniker": "C:\\Users\\plyushka\\source\\repos\\OS07_04_X\\OS07_04_X\\Program.cpp",
+              "RelativeDocumentMoniker": "OS07_04_X\\Program.cpp",
+              "ToolTip": "C:\\Users\\plyushka\\source\\repos\\OS07_04_X\\OS07_04_X\\Program.cpp",
+              "RelativeToolTip": "OS07_04_X\\Program.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwBIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-02T19:33:51.736Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
