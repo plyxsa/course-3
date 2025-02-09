@@ -1,0 +1,492 @@
+﻿  AcceptServer.cpp
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\AcceptServer.cpp(6,30): error C2039: "ACCEPT": не является членом "Contact".
+      D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\ConcurrentServer.h(37,8):
+       см. объявление "Contact"
+  
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\AcceptServer.cpp(6,30): error C2065: ACCEPT: необъявленный идентификатор
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\AcceptServer.cpp(39,19): error C2065: EXIT: необъявленный идентификатор
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\AcceptServer.cpp(42,14): error C2065: START: необъявленный идентификатор
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\AcceptServer.cpp(42,14): error C2131: выражение не определяется константой
+      D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\AcceptServer.cpp(42,14):
+      обнаружено неконстантное (под)выражение
+  
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\AcceptServer.cpp(44,19): error C2065: GETCOMMAND: необъявленный идентификатор
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\AcceptServer.cpp(47,14): error C2065: STOP: необъявленный идентификатор
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\AcceptServer.cpp(47,14): error C2131: выражение не определяется константой
+      D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\AcceptServer.cpp(47,14):
+      обнаружено неконстантное (под)выражение
+  
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\AcceptServer.cpp(49,19): error C2065: GETCOMMAND: необъявленный идентификатор
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\AcceptServer.cpp(52,14): error C2065: WAIT: необъявленный идентификатор
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\AcceptServer.cpp(52,14): error C2131: выражение не определяется константой
+      D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\AcceptServer.cpp(52,14):
+      обнаружено неконстантное (под)выражение
+  
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\AcceptServer.cpp(55,19): error C2065: START: необъявленный идентификатор
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\AcceptServer.cpp(57,14): error C2065: SHUTDOWN: необъявленный идентификатор
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\AcceptServer.cpp(57,14): error C2131: выражение не определяется константой
+      D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\AcceptServer.cpp(57,14):
+      обнаружено неконстантное (под)выражение
+  
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\AcceptServer.cpp(60,19): error C2065: EXIT: необъявленный идентификатор
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\AcceptServer.cpp(63,20): error C2065: EXIT: необъявленный идентификатор
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\AcceptServer.cpp(66,23): error C2065: GETCOMMAND: необъявленный идентификатор
+  ConcurrentServer.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(103,9): warning C4005: AF_IPX: изменение макроопределения
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(457,9):
+      см. предыдущее определение "AF_IPX"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(147,9): warning C4005: AF_MAX: изменение макроопределения
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(476,9):
+      см. предыдущее определение "AF_MAX"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(187,9): warning C4005: SO_DONTLINGER: изменение макроопределения
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(399,9):
+      см. предыдущее определение "SO_DONTLINGER"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(240,16): error C2011: sockaddr: переопределение типа "struct"
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(482,8):
+       см. объявление "sockaddr"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(442,5): error C2143: синтаксическая ошибка: отсутствие "}" перед "константа"
+  (компиляция исходного файла "ConcurrentServer.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(442,5): error C2059: синтаксическая ошибка: константа
+  (компиляция исходного файла "ConcurrentServer.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(496,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+  (компиляция исходного файла "ConcurrentServer.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(496,3): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "ConcurrentServer.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(496,13): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "ConcurrentServer.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(577,9): warning C4005: IN_CLASSA: изменение макроопределения
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(284,9):
+      см. предыдущее определение "IN_CLASSA"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(583,9): warning C4005: IN_CLASSB: изменение макроопределения
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(290,9):
+      см. предыдущее определение "IN_CLASSB"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(589,9): warning C4005: IN_CLASSC: изменение макроопределения
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(296,9):
+      см. предыдущее определение "IN_CLASSC"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(600,9): warning C4005: INADDR_ANY: изменение макроопределения
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(301,9):
+      см. предыдущее определение "INADDR_ANY"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(602,9): warning C4005: INADDR_BROADCAST: изменение макроопределения
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(303,9):
+      см. предыдущее определение "INADDR_BROADCAST"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(638,16): error C2011: sockaddr_in: переопределение типа "struct"
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(309,8):
+       см. объявление "sockaddr_in"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(136,16): error C2011: fd_set: переопределение типа "struct"
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(65,16):
+       см. объявление "fd_set"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(158,9): warning C4005: FD_SET: изменение макроопределения
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(96,9):
+      см. предыдущее определение "FD_SET"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(180,8): error C2011: timeval: переопределение типа "struct"
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(108,8):
+       см. объявление "timeval"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(236,9): error C2011: hostent: переопределение типа "struct"
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(164,9):
+       см. объявление "hostent"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(249,9): error C2011: netent: переопределение типа "struct"
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(177,9):
+       см. объявление "netent"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(256,9): error C2011: servent: переопределение типа "struct"
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(184,9):
+       см. объявление "servent"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(268,9): error C2011: protoent: переопределение типа "struct"
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(196,9):
+       см. объявление "protoent"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(364,16): error C2011: WSAData: переопределение типа "struct"
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(319,16):
+       см. объявление "WSAData"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(462,8): error C2011: sockproto: переопределение типа "struct"
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(491,8):
+       см. объявление "sockproto"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(504,9): error C2011: linger: переопределение типа "struct"
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(528,9):
+       см. объявление "linger"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(517,9): warning C4005: SOMAXCONN: изменение макроопределения
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(541,9):
+      см. предыдущее определение "SOMAXCONN"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(551,9): warning C4005: FD_READ: изменение макроопределения
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(559,9):
+      см. предыдущее определение "FD_READ"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(554,9): warning C4005: FD_WRITE: изменение макроопределения
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(560,9):
+      см. предыдущее определение "FD_WRITE"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(557,9): warning C4005: FD_OOB: изменение макроопределения
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(561,9):
+      см. предыдущее определение "FD_OOB"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(560,9): warning C4005: FD_ACCEPT: изменение макроопределения
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(562,9):
+      см. предыдущее определение "FD_ACCEPT"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(563,9): warning C4005: FD_CONNECT: изменение макроопределения
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(563,9):
+      см. предыдущее определение "FD_CONNECT"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(566,9): warning C4005: FD_CLOSE: изменение макроопределения
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(564,9):
+      см. предыдущее определение "FD_CLOSE"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(1631,1): error C2375: accept: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(739,19):
+       см. объявление "accept"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(1653,1): error C2375: bind: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(744,16):
+       см. объявление "bind"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(1674,1): error C2375: closesocket: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(749,16):
+       см. объявление "closesocket"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(1691,1): error C2375: connect: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(751,16):
+       см. объявление "connect"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(1712,1): error C2375: ioctlsocket: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(756,16):
+       см. объявление "ioctlsocket"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(1735,1): error C2375: getpeername: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(761,16):
+       см. объявление "getpeername"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(1756,1): error C2375: getsockname: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(766,16):
+       см. объявление "getsockname"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(1777,1): error C2375: getsockopt: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(771,16):
+       см. объявление "getsockopt"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(1802,1): error C2375: htonl: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(778,19):
+       см. объявление "htonl"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(1819,1): error C2375: htons: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(780,20):
+       см. объявление "htons"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(1837,1): error C2375: inet_addr: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(782,26):
+       см. объявление "inet_addr"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(1855,1): error C2375: inet_ntoa: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(784,23):
+       см. объявление "inet_ntoa"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(1955,1): error C2375: listen: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(786,16):
+       см. объявление "listen"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(1974,1): error C2375: ntohl: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(790,19):
+       см. объявление "ntohl"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(1991,1): error C2375: ntohs: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(792,20):
+       см. объявление "ntohs"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2008,1): error C2375: recv: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(794,16):
+       см. объявление "recv"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2031,1): error C2375: recvfrom: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(800,16):
+       см. объявление "recvfrom"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2058,1): error C2375: select: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(808,16):
+       см. объявление "select"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2083,1): error C2375: send: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(815,16):
+       см. объявление "send"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2106,1): error C2375: sendto: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(821,16):
+       см. объявление "sendto"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2133,1): error C2375: setsockopt: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(829,16):
+       см. объявление "setsockopt"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2158,1): error C2375: shutdown: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(836,16):
+       см. объявление "shutdown"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2178,1): error C2375: socket: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(840,19):
+       см. объявление "socket"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2203,1): error C2375: gethostbyaddr: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(847,33):
+       см. объявление "gethostbyaddr"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2225,1): error C2375: gethostbyname: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(852,33):
+       см. объявление "gethostbyname"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2242,1): error C2375: gethostname: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(854,16):
+       см. объявление "gethostname"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2282,1): error C2375: getservbyport: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(858,33):
+       см. объявление "getservbyport"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2301,1): error C2375: getservbyname: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(862,33):
+       см. объявление "getservbyname"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2320,1): error C2375: getprotobynumber: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(866,34):
+       см. объявление "getprotobynumber"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2337,1): error C2375: getprotobyname: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(868,34):
+       см. объявление "getprotobyname"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2357,1): error C2375: WSAStartup: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(872,16):
+       см. объявление "WSAStartup"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2377,1): error C2375: WSACleanup: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(876,16):
+       см. объявление "WSACleanup"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2394,1): error C2375: WSASetLastError: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(878,17):
+       см. объявление "WSASetLastError"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2411,1): error C2375: WSAGetLastError: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(880,16):
+       см. объявление "WSAGetLastError"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2432,1): error C2375: WSAIsBlocking: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(882,17):
+       см. объявление "WSAIsBlocking"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2450,1): error C2375: WSAUnhookBlockingHook: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(884,16):
+       см. объявление "WSAUnhookBlockingHook"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2468,1): error C2375: WSASetBlockingHook: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(886,20):
+       см. объявление "WSASetBlockingHook"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2486,1): error C2375: WSACancelBlockingCall: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(888,16):
+       см. объявление "WSACancelBlockingCall"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2504,1): error C2375: WSAAsyncGetServByName: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(890,19):
+       см. объявление "WSAAsyncGetServByName"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2532,1): error C2375: WSAAsyncGetServByPort: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(898,19):
+       см. объявление "WSAAsyncGetServByPort"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2560,1): error C2375: WSAAsyncGetProtoByName: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(906,19):
+       см. объявление "WSAAsyncGetProtoByName"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2586,1): error C2375: WSAAsyncGetProtoByNumber: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(913,19):
+       см. объявление "WSAAsyncGetProtoByNumber"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2612,1): error C2375: WSAAsyncGetHostByName: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(920,19):
+       см. объявление "WSAAsyncGetHostByName"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2638,1): error C2375: WSAAsyncGetHostByAddr: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(927,19):
+       см. объявление "WSAAsyncGetHostByAddr"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2668,1): error C2375: WSACancelAsyncRequest: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(936,16):
+       см. объявление "WSACancelAsyncRequest"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(2686,1): error C2375: WSAAsyncSelect: переопределение; другое связывание
+  (компиляция исходного файла "ConcurrentServer.cpp")
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(938,16):
+       см. объявление "WSAAsyncSelect"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(4318,1): error C2059: синтаксическая ошибка: }
+  (компиляция исходного файла "ConcurrentServer.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock2.h(4318,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+  (компиляция исходного файла "ConcurrentServer.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\float.h(19,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+  (компиляция исходного файла "ConcurrentServer.cpp")
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\float.h(19,1): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+  (компиляция исходного файла "ConcurrentServer.cpp")
+  
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\ConcurrentServer.h(42,17): error C2079: "Contact::prms" использует не имеющую определения структуру struct "sockaddr_in"
+  (компиляция исходного файла "ConcurrentServer.cpp")
+  
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\ConcurrentServer.cpp(80,13): error C2079: "wsaData" использует не имеющую определения структуру struct "WSAData"
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\ConcurrentServer.cpp(81,19): error C2568: !=: не удается разрешить перегрузку функции
+      D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\ConcurrentServer.cpp(81,19):
+      может быть "int WSAStartup(WORD,LPWSADATA)"
+  
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\ConcurrentServer.cpp(90,35): error C2065: START: необъявленный идентификатор
+  ConsolePipe.cpp
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\ConsolePipe.cpp(16,38): error C2065: EXIT: необъявленный идентификатор
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\ConsolePipe.cpp(23,39): error C2065: EXIT: необъявленный идентификатор
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\ConsolePipe.cpp(24,37): error C2065: GETCOMMAND: необъявленный идентификатор
+  DispatchServer.cpp
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\DispatchServer.cpp(10,38): error C2065: EXIT: необъявленный идентификатор
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\DispatchServer.cpp(14,31): error C2039: "ACCEPT": не является членом "Contact".
+      D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\ConcurrentServer.h(37,8):
+       см. объявление "Contact"
+  
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\DispatchServer.cpp(14,31): error C2065: ACCEPT: необъявленный идентификатор
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\DispatchServer.cpp(26,38): error C2039: "FINISH": не является членом "Contact".
+      D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\ConcurrentServer.h(37,8):
+       см. объявление "Contact"
+  
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\DispatchServer.cpp(26,38): error C2065: FINISH: необъявленный идентификатор
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\DispatchServer.cpp(37,36): error C2039: "FINISH": не является членом "Contact".
+      D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\ConcurrentServer.h(37,8):
+       см. объявление "Contact"
+  
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\DispatchServer.cpp(37,36): error C2065: FINISH: необъявленный идентификатор
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\DispatchServer.cpp(44,32): error C2039: "CONTACT": не является членом "Contact".
+      D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\ConcurrentServer.h(37,8):
+       см. объявление "Contact"
+  
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\DispatchServer.cpp(44,32): error C2065: CONTACT: необъявленный идентификатор
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\DispatchServer.cpp(73,35): error C2039: "ABORT": не является членом "Contact".
+      D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\ConcurrentServer.h(37,8):
+       см. объявление "Contact"
+  
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\DispatchServer.cpp(73,35): error C2065: ABORT: необъявленный идентификатор
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\DispatchServer.cpp(100,29): error C2039: "TIMEOUT": не является членом "Contact".
+      D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\ConcurrentServer.h(37,8):
+       см. объявление "Contact"
+  
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\DispatchServer.cpp(100,29): error C2065: TIMEOUT: необъявленный идентификатор
+  GarbageCleaner.cpp
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\GarbageCleaner.cpp(5,78): error C2065: EXIT: необъявленный идентификатор
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\GarbageCleaner.cpp(9,49): error C2039: "FINISH": не является членом "Contact".
+      D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\ConcurrentServer.h(37,8):
+       см. объявление "Contact"
+  
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\GarbageCleaner.cpp(9,49): error C2065: FINISH: необъявленный идентификатор
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\GarbageCleaner.cpp(9,83): error C2039: "TIMEOUT": не является членом "Contact".
+      D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\ConcurrentServer.h(37,8):
+       см. объявление "Contact"
+  
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\GarbageCleaner.cpp(9,83): error C2065: TIMEOUT: необъявленный идентификатор
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\GarbageCleaner.cpp(9,118): error C2039: "ABORT": не является членом "Contact".
+      D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\ConcurrentServer.h(37,8):
+       см. объявление "Contact"
+  
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\GarbageCleaner.cpp(9,118): error C2065: ABORT: необъявленный идентификатор
+  ResponseServer.cpp
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\ResponseServer.cpp(31,38): error C2065: EXIT: необъявленный идентификатор
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ConcurrentServer\ConcurrentServer\ResponseServer.cpp(48,55): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  Создание кода...

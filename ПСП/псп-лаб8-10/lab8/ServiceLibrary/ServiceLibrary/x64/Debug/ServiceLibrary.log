@@ -1,0 +1,5 @@
+﻿  pch.cpp
+  EchoServer.cpp
+D:\Уник\1sem\ПСП\псп-лаб8-10\lab8\ServiceLibrary\ServiceLibrary\EchoServer.cpp(12,9): warning C4101: recv_len: неиспользованная локальная переменная
+  (компиляция исходного файла "/EchoServer.cpp")
+  
