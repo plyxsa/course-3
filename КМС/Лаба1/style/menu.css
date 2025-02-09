@@ -1,0 +1,114 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Ubuntu', sans-serif; 
+} 
+
+body { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    overflow: hidden; 
+    padding: 10px;
+} 
+
+ul { 
+    position: relative; 
+    padding: 5vw;
+} 
+
+ul li { 
+    list-style: none; 
+    text-align: center; 
+    margin: 10px 0; 
+} 
+
+ul li a { 
+    color: #333; 
+    text-decoration: none; 
+    font-size: 4vw; 
+    padding: 5px 20px; 
+    display: inline-flex; 
+    font-weight: 700; 
+    transition: 0.5s; 
+} 
+
+ul:hover li a { 
+    color: #0002; 
+} 
+
+ul li:hover a { 
+    color: #0F1020; 
+    background: rgba(255,255,255,1); 
+    border-radius: 2px;
+} 
+
+ul li a:before { 
+    content: ''; 
+    position: absolute; 
+    top: 50%; 
+    left: 40%; 
+    transform: translate(-50%,-50%); 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 5vw;
+    color: rgba(0,0,0,.1); 
+    border-radius: 50%; 
+    z-index: -1; 
+    opacity: 0; 
+    font-weight: 600; 
+    text-transform: uppercase; 
+    letter-spacing: 500px; 
+    transition: letter-spacing 1s,left 1s; 
+} 
+
+ul li a:hover:before { 
+    opacity: 1; 
+    left: 50%; 
+    letter-spacing: 10px; 
+    width: 1800px; 
+    height: 1800px; 
+} 
+
+ul li:nth-child(6n+1) a:before { 
+    background: #dfc5e2; 
+    transition: 1s;
+} 
+
+ul li:nth-child(6n+2) a:before {
+    background: #cbcdf2; 
+    transition: 1s;
+} 
+
+ul li:nth-child(6n+3) a:before { 
+    background: #dfc5e2; 
+    transition: 1s;
+} 
+    
+ul li:nth-child(6n+4) a:before { 
+    background: #cecbed; 
+    transition: 1s;
+} 
+
+@media (max-width: 768px) {
+    ul li a {
+        font-size: 6vw; 
+    }
+
+    ul li a:before {
+        font-size: 10vw;
+    }
+}
+
+@media (max-width: 480px) {
+    ul li a {
+        font-size: 8vw; 
+    }
+
+    ul li a:before {
+        font-size: 12vw;
+    }
+}
