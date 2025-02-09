@@ -1,0 +1,4 @@
+﻿  Program.cpp
+D:\Уник\1sem\ОС\лаба9-ос\OS09_04\OS09_04\Program.cpp(58,25): warning C4244: инициализация: преобразование "ULONGLONG" в "DWORD", возможна потеря данных
+D:\Уник\1sem\ОС\лаба9-ос\OS09_04\OS09_04\Program.cpp(62,31): warning C4244: инициализация: преобразование "ULONGLONG" в "DWORD", возможна потеря данных
+  OS09_04.vcxproj -> D:\Уник\1sem\ОС\лаба9-ос\OS09_04\x64\Debug\OS09_04.exe
