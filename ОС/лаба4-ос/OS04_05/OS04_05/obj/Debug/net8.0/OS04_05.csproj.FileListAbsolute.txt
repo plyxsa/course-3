@@ -1,0 +1,14 @@
+C:\Users\plyushka\source\repos\OS04_05\OS04_05\bin\Debug\net8.0\OS04_05.exe
+C:\Users\plyushka\source\repos\OS04_05\OS04_05\bin\Debug\net8.0\OS04_05.deps.json
+C:\Users\plyushka\source\repos\OS04_05\OS04_05\bin\Debug\net8.0\OS04_05.runtimeconfig.json
+C:\Users\plyushka\source\repos\OS04_05\OS04_05\bin\Debug\net8.0\OS04_05.dll
+C:\Users\plyushka\source\repos\OS04_05\OS04_05\bin\Debug\net8.0\OS04_05.pdb
+C:\Users\plyushka\source\repos\OS04_05\OS04_05\obj\Debug\net8.0\OS04_05.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\plyushka\source\repos\OS04_05\OS04_05\obj\Debug\net8.0\OS04_05.AssemblyInfoInputs.cache
+C:\Users\plyushka\source\repos\OS04_05\OS04_05\obj\Debug\net8.0\OS04_05.AssemblyInfo.cs
+C:\Users\plyushka\source\repos\OS04_05\OS04_05\obj\Debug\net8.0\OS04_05.csproj.CoreCompileInputs.cache
+C:\Users\plyushka\source\repos\OS04_05\OS04_05\obj\Debug\net8.0\OS04_05.dll
+C:\Users\plyushka\source\repos\OS04_05\OS04_05\obj\Debug\net8.0\refint\OS04_05.dll
+C:\Users\plyushka\source\repos\OS04_05\OS04_05\obj\Debug\net8.0\OS04_05.pdb
+C:\Users\plyushka\source\repos\OS04_05\OS04_05\obj\Debug\net8.0\OS04_05.genruntimeconfig.cache
+C:\Users\plyushka\source\repos\OS04_05\OS04_05\obj\Debug\net8.0\ref\OS04_05.dll
