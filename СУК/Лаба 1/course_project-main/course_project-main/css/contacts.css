@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Comfortaa, cursive;
+}
+
+.heading {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.contacts-info-container .contain {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  padding-bottom: 90px;
+  position: relative;
+}
+.contacts-info-container .contain .shops-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.contacts-info-container .contain .shops-container .shop-info {
+  font-size: 20px;
+  border: 2px solid #330F0A;
+  border-radius: 10px;
+  padding: 6%;
+  display: block;
+  margin: 10px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  background-color: #F4FDAF;
+}
+.contacts-info-container .contain .shops-container .shop-info:hover {
+  background-color: #F2ED9E;
+}
+.contacts-info-container .contain .shops-container .shop-info .shop-name {
+  font-weight: 700;
+  display: block;
+}
+.contacts-info-container .contain .shops-container .shop-info .shop-description {
+  font-size: 18px;
+  display: block;
+}
+.contacts-info-container .contain .map {
+  border: 2px solid #330F0A;
+  border-radius: 10px;
+  display: block;
+  margin: 10px;
+}

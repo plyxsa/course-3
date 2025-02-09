@@ -1,0 +1,348 @@
+body {
+  margin: 0;
+  font-family: Comfortaa, cursive;
+  color: #333;
+  background-color: #FAFFD3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+section {
+  margin-bottom: 30px;
+  width: 100%;
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.h-comp {
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px solid #330F0A;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  color: #330F0A;
+}
+
+h2 span {
+  background: #FAFFD3;
+  padding: 0 10px;
+}
+
+.row-card {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.more {
+  position: absolute;
+  background: #EFDD8D;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px;
+  bottom: -60px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  -webkit-transition-property: bottom;
+  transition-property: bottom;
+}
+.more .read-more {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #330F0A;
+}
+.more .read-more:hover {
+  color: #394F49;
+}
+
+.image {
+  background: #F2ED9E;
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  max-width: 90%;
+  height: 100%;
+  overflow: hidden;
+  margin: 5%;
+}
+
+.image img {
+  opacity: 0.8;
+  position: relative;
+  vertical-align: top;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.image:hover img {
+  opacity: 1;
+}
+
+.image .details {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.image .details h2 {
+  text-align: center;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-top: 70px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+}
+
+.more .read-more span {
+  font-weight: 900;
+}
+
+.image .details h2 span {
+  font-weight: 900;
+}
+
+.image:hover .details h2 {
+  -webkit-transform: translateY(-30px);
+          transform: translateY(-30px);
+}
+
+.image .details p {
+  margin: 30px 30px 0;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  -webkit-transition-property: opacity, -webkit-transform;
+  transition-property: opacity, -webkit-transform;
+  transition-property: opacity, transform;
+  transition-property: opacity, transform, -webkit-transform;
+}
+
+.image:hover .details p {
+  opacity: 1;
+  -webkit-transform: translateY(-40px);
+          transform: translateY(-40px);
+}
+
+.image:hover .more {
+  bottom: 0;
+}
+
+@media (width <= 1080px) {
+  .image {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    max-width: 360px;
+  }
+}
+@media (width <= 400px) {
+  .image .details p {
+    font-size: 16px;
+  }
+  .more .read-more {
+    font-size: 18px;
+  }
+}
+.column {
+  float: left;
+  width: 30%;
+  height: 200px;
+  padding: 0 10px;
+}
+
+@media screen and (width <= 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.product {
+  font-size: 18px;
+  color: #330F0A;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+}
+.product .product-brand {
+  margin-bottom: 30px;
+}
+
+.product-container {
+  padding: 0 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.product-card {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  width: 300px;
+  height: 450px;
+  margin-right: 40px;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: 20px;
+}
+
+#one {
+  background-image: url("../images/teapot.svg");
+}
+
+#two {
+  background-image: url("../images/teacup.svg");
+}
+
+#three {
+  background-image: url("../images/gift.svg");
+}
+
+.product-image {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.card-btn {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  padding: 10px;
+  width: 70%;
+  text-transform: capitalize;
+  border: 3px solid #4F6242;
+  outline: none;
+  background: #A3B275;
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+  opacity: 0;
+  font-family: Comfortaa, cursive;
+}
+.card-btn a {
+  color: #330F0A;
+  text-decoration: none;
+}
+.card-btn:hover {
+  background: #4F6242;
+}
+.card-btn:hover a {
+  color: #fff;
+}
+
+.product-card:hover .card-btn {
+  opacity: 1;
+}
+
+.product-info {
+  width: 100%;
+  height: 100px;
+  padding-top: 10px;
+}
+
+.product-short-description {
+  width: 100%;
+  line-height: 20px;
+  overflow: hidden;
+  opacity: 0.5;
+  text-transform: capitalize;
+  margin: 5px 0;
+}
+
+.pre-btn,
+.nxt-btn {
+  border: none;
+  width: 10vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(255, 255, 255, 0)), to(#EFDD8D));
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0, #EFDD8D 100%);
+  cursor: pointer;
+  z-index: 8;
+}
+
+.pre-btn {
+  left: 0;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.nxt-btn {
+  right: 0;
+}
+
+.collection-container {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 10px 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}

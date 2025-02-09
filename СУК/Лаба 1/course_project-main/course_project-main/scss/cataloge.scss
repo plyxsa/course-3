@@ -1,0 +1,208 @@
+@import "variables";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Comfortaa, cursive;
+    color: #333;
+    background-color: $background;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+.in-cart {
+    position: relative;
+    z-index: 1;
+    color: $dark;
+    font-size: 15px;
+    background: $yellow;
+    border-radius: 40%;
+    width: 15px;
+    height: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.cart-inside{
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 360px;
+    min-height: 100vh;
+    padding: 20px;
+    background: $background;
+    box-shadow: -2px 0 4px rgba(0 0 0 / 20%);
+    transition: 0.3s;
+    
+    .cart-title{
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-top: 2rem;
+    }
+    
+    .cart-content{
+        .cart-box{
+            display: grid;
+            grid-template-columns: 32% 50% 18%;
+            align-items: center;
+            gap: 1rem;
+            margin-top: 1rem;
+
+            .cart-image{
+                width: 100px;
+                height: 100px;
+                object-fit: contain;
+                padding: 10px;
+            }
+
+            .detail-box{
+                display: grid;
+                row-gap: 0.5rem;
+
+                .cart-product-title{
+                    font-size: 1rem;
+                    text-transform: uppercase;
+                }
+
+                .cart-price{
+                    font-weight: 500;
+                }
+
+                .cart-quantity{
+                    border: 1px solid $dark;
+                    outline-color: $blue;
+                    width: 2.4rem;
+                    text-align: center;
+                    font-size: 1rem;
+                }
+            }
+
+            .cart-remove{
+                font-size: 10px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .total{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 1.5rem;
+        border-top: 1px solid $dark;
+
+        .total-title{
+            font-size: 1rem;
+            font-weight: 600;
+        }
+
+        .total-price{
+            margin-left: 0.5rem;
+        }
+    }
+
+    .btn-buy{
+        display: flex;
+        margin: 1.5rem auto 0;
+        padding: 12px 20px;
+        background: $softYellow;
+        font-size: 1rem;
+        font-weight: 500;
+        border-radius: 10px;
+        border: 2px solid $softGreen;
+        cursor: pointer;
+
+        &:hover{
+            color: $softYellow;
+            background-color: $softGreen;
+        }
+    }
+
+    .btn-close{
+        position: absolute;
+        top: 1rem;
+        right: 0.8rem;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+}
+
+
+.cart-inside.active{
+    right: 0;
+}
+
+.shop-container{
+    color: $dark;
+    margin: 0 20%;
+    padding: 4rem 0 3rem;
+
+    .section-title{
+        margin-bottom: 1.2rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+    }
+}
+
+.shop-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    gap: 1.5rem;
+
+    .product-box{
+        position: relative;
+
+        &:hover{
+            padding: 1px;
+            outline: 2px solid $coldGreen;
+            border-radius: 10px;
+            transition: 0.2s;
+        }
+
+        .product-image{
+            width: 100%;
+            height: auto;
+            border-radius: 40%;
+            margin-bottom: 0.5rem;
+        }
+
+        .product-title{
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
+        }
+
+        .price{
+            font-weight: 500;
+        }
+
+        .add-cart{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            padding: 10px;
+            cursor: pointer;
+
+            &:hover{
+                background: $yellow;
+                border-radius: 10px;
+                transition: 0.2s;
+            }
+        }
+    }
+}
+
+.category{
+    text-align: center;
+}

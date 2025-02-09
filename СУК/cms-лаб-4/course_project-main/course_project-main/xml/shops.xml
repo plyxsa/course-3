@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<catalogue class="shops-container">
+    <place class="shop-info">
+       <name class="shop-name">Магазин на Свердлово</name>
+       <description class="shop-description">Время работы: с 10-00 до 22-00</description>
+       <phone class="shop-name">+375290000000</phone>
+    </place>
+    <place  class="shop-info">
+       <name class="shop-name">Любимый магазин</name>
+       <description class="shop-description">Время работы: с 10-00 до 22-00</description>
+       <phone class="shop-name">+375440000000</phone>
+    </place>
+    <place  class="shop-info">
+       <name class="shop-name">Магазин рядом с домом</name>
+       <description class="shop-description">Время работы: с 10-00 до 22-00</description>
+       <phone class="shop-name">+375170000000</phone>
+    </place>
+</catalogue>

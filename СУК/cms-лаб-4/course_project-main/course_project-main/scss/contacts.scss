@@ -1,0 +1,66 @@
+@import "variables";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Comfortaa, cursive;
+}
+
+.heading{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.contacts-info-container{
+    .contain{
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        padding-bottom: 90px;
+        position: relative;
+
+        .shops-container{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            .shop-info{
+                font-size: 20px;
+                border: 2px solid $dark;
+                border-radius: 10px;
+                padding: 6%;
+                display: block;
+                margin: 10px;
+                transition: 0.4s;
+                background-color: $lightYellow;
+
+                &:hover{
+                    background-color: $softYellow;
+                }
+        
+                .shop-name{
+                    font-weight: 700;
+                    display: block;
+                }
+        
+                .shop-description{
+                    font-size: 18px;
+                    display: block;
+                }
+            }
+        }
+        
+        .map{
+            border: 2px solid $dark;
+            border-radius: 10px;
+            display: block;
+            margin: 10px;
+        }
+    }
+
+}
+
+
+

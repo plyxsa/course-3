@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Comfortaa, cursive;
+  color: #333;
+  background-color: #FAFFD3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-padding-top: 2rem;
+  scroll-behavior: smooth;
+  list-style: none;
+  text-decoration: none;
+}
+
+.in-cart {
+  position: relative;
+  z-index: 1;
+  color: #330F0A;
+  font-size: 15px;
+  background: #EFDD8D;
+  border-radius: 40%;
+  width: 15px;
+  height: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.cart-inside {
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 360px;
+  min-height: 100vh;
+  padding: 20px;
+  background: #FAFFD3;
+  -webkit-box-shadow: -2px 0 4px rgba(0, 0, 0, 0.2);
+          box-shadow: -2px 0 4px rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.cart-inside .cart-title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+.cart-inside .cart-content .cart-box {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 32% 1rem 50% 1rem 18%;
+  grid-template-columns: 32% 50% 18%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.cart-inside .cart-content .cart-box .cart-image {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: 10px;
+}
+.cart-inside .cart-content .cart-box .detail-box {
+  display: -ms-grid;
+  display: grid;
+  row-gap: 0.5rem;
+}
+.cart-inside .cart-content .cart-box .detail-box .cart-product-title {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.cart-inside .cart-content .cart-box .detail-box .cart-price {
+  font-weight: 500;
+}
+.cart-inside .cart-content .cart-box .detail-box .cart-quantity {
+  border: 1px solid #330F0A;
+  outline-color: #394F49;
+  width: 2.4rem;
+  text-align: center;
+  font-size: 1rem;
+}
+.cart-inside .cart-content .cart-box .cart-remove {
+  font-size: 10px;
+  cursor: pointer;
+}
+.cart-inside .total {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 1.5rem;
+  border-top: 1px solid #330F0A;
+}
+.cart-inside .total .total-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.cart-inside .total .total-price {
+  margin-left: 0.5rem;
+}
+.cart-inside .btn-buy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1.5rem auto 0;
+  padding: 12px 20px;
+  background: #F2ED9E;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 10px;
+  border: 2px solid #A3B275;
+  cursor: pointer;
+}
+.cart-inside .btn-buy:hover {
+  color: #F2ED9E;
+  background-color: #A3B275;
+}
+.cart-inside .btn-close {
+  position: absolute;
+  top: 1rem;
+  right: 0.8rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.cart-inside.active {
+  right: 0;
+}
+
+.shop-container {
+  color: #330F0A;
+  margin: 0 20%;
+  padding: 4rem 0 3rem;
+}
+.shop-container .section-title {
+  margin-bottom: 1.2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.shop-content {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+  gap: 1.5rem;
+}
+.shop-content .product-box {
+  position: relative;
+}
+.shop-content .product-box:hover {
+  padding: 1px;
+  outline: 2px solid #4F6242;
+  border-radius: 10px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.shop-content .product-box .product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 40%;
+  margin-bottom: 0.5rem;
+}
+.shop-content .product-box .product-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+.shop-content .product-box .price {
+  font-weight: 500;
+}
+.shop-content .product-box .add-cart {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  cursor: pointer;
+}
+.shop-content .product-box .add-cart:hover {
+  background: #EFDD8D;
+  border-radius: 10px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.category {
+  text-align: center;
+}

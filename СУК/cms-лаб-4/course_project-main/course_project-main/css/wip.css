@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: Comfortaa, cursive;
+  color: #333;
+  background-color: #FAFFD3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wip {
+  font-size: 42px;
+  text-align: center;
+  margin-top: 20%;
+}
+.wip a {
+  font-size: 36px;
+  text-decoration: none;
+  color: #EFDD8D;
+  font-weight: 50;
+}
+.wip a:hover {
+  color: #A3B275;
+}
