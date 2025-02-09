@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u0423\u043D\u0438\u043A\\1sem\\\u041F\u0421\u041F\\\u043F\u0441\u043F-\u043B\u0430\u04317\\lab8\\RConsole\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{67419A03-4D88-47D5-BE64-7E9C51DA93D3}|RConsole\\RConsole.vcxproj|D:\\\u0423\u043D\u0438\u043A\\1sem\\\u041F\u0421\u041F\\\u043F\u0441\u043F-\u043B\u0430\u04317\\lab8\\RConsole\\RConsole\\RConsole.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{67419A03-4D88-47D5-BE64-7E9C51DA93D3}|RConsole\\RConsole.vcxproj|solutionrelative:RConsole\\RConsole.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RConsole.cpp",
+              "DocumentMoniker": "D:\\\u0423\u043D\u0438\u043A\\1sem\\\u041F\u0421\u041F\\\u043F\u0441\u043F-\u043B\u0430\u04317\\lab8\\RConsole\\RConsole\\RConsole.cpp",
+              "RelativeDocumentMoniker": "RConsole\\RConsole.cpp",
+              "ToolTip": "D:\\\u0423\u043D\u0438\u043A\\1sem\\\u041F\u0421\u041F\\\u043F\u0441\u043F-\u043B\u0430\u04317\\lab8\\RConsole\\RConsole\\RConsole.cpp",
+              "RelativeToolTip": "RConsole\\RConsole.cpp",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-24T13:52:26.415Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
