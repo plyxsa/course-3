@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Заказ товаров</title>
+    <script>
+        function calculateTotal() {
+            var pricesInput = document.getElementById("prices").value;
+            var pricesArray = pricesInput.split(",").map(function(price) {
+                return parseFloat(price.trim()); 
+            });
+
+            pricesArray = pricesArray.filter(function(price) {
+                return !isNaN(price);
+            });
+
+            var total = pricesArray.reduce(function(acc, price) {
+                return acc + price;
+            }, 0);
+
+            document.getElementById("result").value = total.toFixed(2);
+        }
+    </script>
+</head>
+<body>
+    <h1>Заказ товаров</h1>
+    <form name="orderForm">
+        Компания <input type="text" id="company" size="30"><br>
+       заказала товаары <input type="text" id="company" size="30"><br>
+       с ценами : <input type="text" id="prices" size="30"><br>
+        <input type="button" value="Расчитать" onclick="calculateTotal()">
+    </form>
+    <br>
+    Общая сумма: <input type="text" id="result" size="30" readonly>
+</body>
+</html>
