@@ -1,0 +1,61 @@
+﻿  Program.cpp
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(18,9): error C4235: использовано нестандартное расширение: ключевое слово "__asm" данной архитектурой не поддерживается
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(19,13): error C2065: mov: необъявленный идентификатор
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(19,17): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "eax"
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(19,17): error C2065: eax: необъявленный идентификатор
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(20,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "bts"
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(20,13): error C2065: bts: необъявленный идентификатор
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(20,17): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "eax"
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(20,17): error C2065: eax: необъявленный идентификатор
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(21,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "setc"
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(21,13): error C2065: setc: необъявленный идентификатор
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(21,18): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "al"
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(21,18): error C2065: al: необъявленный идентификатор
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(22,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mov"
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(22,13): error C2065: mov: необъявленный идентификатор
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(22,17): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "bitSet"
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(22,25): error C2065: al: необъявленный идентификатор
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(23,9): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(30,5): error C4235: использовано нестандартное расширение: ключевое слово "__asm" данной архитектурой не поддерживается
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(31,9): error C2065: mov: необъявленный идентификатор
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(31,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "eax"
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(31,13): error C2065: eax: необъявленный идентификатор
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(32,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "btr"
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(32,9): error C2065: btr: необъявленный идентификатор
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(32,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "eax"
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(32,13): error C2065: eax: необъявленный идентификатор
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(33,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mov"
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(33,9): error C2065: mov: необъявленный идентификатор
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(33,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "sync_flag"
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(33,24): error C2065: eax: необъявленный идентификатор
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(34,5): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(45,9): error C4235: использовано нестандартное расширение: ключевое слово "__asm" данной архитектурой не поддерживается
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(46,13): error C2065: mov: необъявленный идентификатор
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(46,17): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "eax"
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(46,17): error C2065: eax: необъявленный идентификатор
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(47,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "bts"
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(47,13): error C2065: bts: необъявленный идентификатор
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(47,17): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "eax"
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(47,17): error C2065: eax: необъявленный идентификатор
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(48,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "setc"
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(48,13): error C2065: setc: необъявленный идентификатор
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(48,18): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "al"
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(48,18): error C2065: al: необъявленный идентификатор
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(49,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mov"
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(49,13): error C2065: mov: необъявленный идентификатор
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(49,17): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "bitSet"
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(49,25): error C2065: al: необъявленный идентификатор
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(50,9): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(57,5): error C4235: использовано нестандартное расширение: ключевое слово "__asm" данной архитектурой не поддерживается
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(58,9): error C2065: mov: необъявленный идентификатор
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(58,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "eax"
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(58,13): error C2065: eax: необъявленный идентификатор
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(59,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "btr"
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(59,9): error C2065: btr: необъявленный идентификатор
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(59,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "eax"
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(59,13): error C2065: eax: необъявленный идентификатор
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(60,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mov"
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(60,9): error C2065: mov: необъявленный идентификатор
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(60,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "sync_flag"
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(60,24): error C2065: eax: необъявленный идентификатор
+C:\Users\plyushka\source\repos\OS06_02\OS06_02\Program.cpp(61,5): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
