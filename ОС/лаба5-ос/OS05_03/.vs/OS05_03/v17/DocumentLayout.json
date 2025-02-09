@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\plyushka\\source\\repos\\OS05_03\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80D40ABD-97C5-46C5-B958-DAA38B402B7D}|OS05_03\\OS05_03.csproj|c:\\users\\plyushka\\source\\repos\\os05_03\\os05_03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80D40ABD-97C5-46C5-B958-DAA38B402B7D}|OS05_03\\OS05_03.csproj|solutionrelative:os05_03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\plyushka\\source\\repos\\OS05_03\\OS05_03\\Program.cs",
+              "RelativeDocumentMoniker": "OS05_03\\Program.cs",
+              "ToolTip": "C:\\Users\\plyushka\\source\\repos\\OS05_03\\OS05_03\\Program.cs",
+              "RelativeToolTip": "OS05_03\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwD0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T18:38:26.694Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

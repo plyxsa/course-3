@@ -1,0 +1,14 @@
+C:\Users\plyushka\source\repos\OS08_02\OS08_02\bin\Release\net8.0\OS08_02.exe
+C:\Users\plyushka\source\repos\OS08_02\OS08_02\bin\Release\net8.0\OS08_02.deps.json
+C:\Users\plyushka\source\repos\OS08_02\OS08_02\bin\Release\net8.0\OS08_02.runtimeconfig.json
+C:\Users\plyushka\source\repos\OS08_02\OS08_02\bin\Release\net8.0\OS08_02.dll
+C:\Users\plyushka\source\repos\OS08_02\OS08_02\bin\Release\net8.0\OS08_02.pdb
+C:\Users\plyushka\source\repos\OS08_02\OS08_02\obj\Release\net8.0\OS08_02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\plyushka\source\repos\OS08_02\OS08_02\obj\Release\net8.0\OS08_02.AssemblyInfoInputs.cache
+C:\Users\plyushka\source\repos\OS08_02\OS08_02\obj\Release\net8.0\OS08_02.AssemblyInfo.cs
+C:\Users\plyushka\source\repos\OS08_02\OS08_02\obj\Release\net8.0\OS08_02.csproj.CoreCompileInputs.cache
+C:\Users\plyushka\source\repos\OS08_02\OS08_02\obj\Release\net8.0\OS08_02.dll
+C:\Users\plyushka\source\repos\OS08_02\OS08_02\obj\Release\net8.0\refint\OS08_02.dll
+C:\Users\plyushka\source\repos\OS08_02\OS08_02\obj\Release\net8.0\OS08_02.pdb
+C:\Users\plyushka\source\repos\OS08_02\OS08_02\obj\Release\net8.0\OS08_02.genruntimeconfig.cache
+C:\Users\plyushka\source\repos\OS08_02\OS08_02\obj\Release\net8.0\ref\OS08_02.dll

@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\plyushka\\source\\repos\\OS08_02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D01962DA-3566-485D-8734-D46C51EA05A4}|OS08_02\\OS08_02.csproj|c:\\users\\plyushka\\source\\repos\\os08_02\\os08_02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D01962DA-3566-485D-8734-D46C51EA05A4}|OS08_02\\OS08_02.csproj|solutionrelative:os08_02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01962DA-3566-485D-8734-D46C51EA05A4}|OS08_02\\OS08_02.csproj|c:\\users\\plyushka\\source\\repos\\os08_02\\os08_02\\os08_02.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{D01962DA-3566-485D-8734-D46C51EA05A4}|OS08_02\\OS08_02.csproj|solutionrelative:os08_02\\os08_02.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OS08_02",
+              "DocumentMoniker": "C:\\Users\\plyushka\\source\\repos\\OS08_02\\OS08_02\\OS08_02.csproj",
+              "RelativeDocumentMoniker": "OS08_02\\OS08_02.csproj",
+              "ToolTip": "C:\\Users\\plyushka\\source\\repos\\OS08_02\\OS08_02\\OS08_02.csproj",
+              "RelativeToolTip": "OS08_02\\OS08_02.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-09T08:53:58.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\plyushka\\source\\repos\\OS08_02\\OS08_02\\Program.cs",
+              "RelativeDocumentMoniker": "OS08_02\\Program.cs",
+              "ToolTip": "C:\\Users\\plyushka\\source\\repos\\OS08_02\\OS08_02\\Program.cs",
+              "RelativeToolTip": "OS08_02\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T08:53:27.88Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

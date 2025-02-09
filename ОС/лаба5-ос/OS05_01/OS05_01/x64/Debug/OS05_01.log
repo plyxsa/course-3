@@ -1,0 +1,3 @@
+﻿  Program.cpp
+C:\Users\plyushka\source\repos\OS05_01\OS05_01\Program.cpp(33,30): warning C4267: инициализация: преобразование из "size_t" в "DWORD"; возможна потеря данных
+  OS05_01.vcxproj -> C:\Users\plyushka\source\repos\OS05_01\x64\Debug\OS05_01.exe

@@ -1,0 +1,3 @@
+﻿  Program.cpp
+C:\Users\plyushka\source\repos\OS08_04\OS08_04\Program.cpp(5,26): warning C4312: приведение типов: преобразование из "unsigned long" в "unsigned char *" большего размера
+  OS08_04.vcxproj -> C:\Users\plyushka\source\repos\OS08_04\x64\Debug\OS08_04.exe
